@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio website">
+    <title> My Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-button">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow"> Hello Everyone </p>
+
+                <h1> I'm <span>Anish Kumar</span></h1>
+
+                <h2> <span id="typing-text">Aspiring Developer</span></h2>
+
+                <p class="hero-description">
+                    I'm a student passionate about technology, problem-solving,
+                    and building creative things for the web.
+                    Welcome to my personal portfolio!
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">Explore My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Anish0209" target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="profile-card">
+                    <div class="profile-icon">{"</>"}</div>
+                    <h3>BUILD. LEARN. GROW.</h3>
+                    <p>Turning ideas into reality.</p>
+                    <div class="status">
+                        <span class="status-dot"></span>
+                        Open to learning & opportunities
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A little introduction about who I am.</p>
+            </div>
+
+            <div class="about-card reveal">
+                <div class="about-number">01</div>
+                <div>
+                    <h3>A Student With Big Goals</h3>
+                    <p>
+                        I'm a first-year B.Tech student at NIT Trichy,
+                        studying Metallurgical and Materials Engineering.
+                        Alongside my academics, I'm exploring programming,
+                        web development, and software engineering.
+                    </p>
+                    <p>
+                        My goal is to develop practical skills, create useful
+                        projects, and continuously improve through hands-on
+                        experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">WHAT I'M LEARNING</p>
+                <h2>My <span>Skills</span></h2>
+                <p>Technologies I'm exploring on my developer journey.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card reveal">
+                    <div class="skill-icon html-icon">5</div>
+                    <h3>HTML</h3>
+                    <p>Building website structure and content.</p>
+                    <span class="skill-level">Currently learning</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon css-icon">#</div>
+                    <h3>CSS</h3>
+                    <p>Creating attractive layouts and responsive designs.</p>
+                    <span class="skill-level">Currently learning</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon js-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding logic and interactivity to websites.</p>
+                    <span class="skill-level">Currently learning</span>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon code-icon">{ }</div>
+                    <h3>Problem Solving</h3>
+                    <p>Developing logical thinking through practice.</p>
+                    <span class="skill-level">Building foundations</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">WHAT I'VE BUILT</p>
+                <h2>My <span>Projects</span></h2>
+                <p>A collection of projects from my learning journey.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-top project-top-one">
+                        <span>PROJECT 01</span>
+                        <span class="project-symbol">✦</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive website to introduce myself,
+                            display my skills, and showcase my work.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#home" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top project-top-two">
+                        <span>PROJECT 02</span>
+                        <span class="project-symbol">◈</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>To-Do List</h3>
+                        <p>
+                            An interactive task manager for adding,
+                            completing, and organizing daily tasks.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#contact" class="project-link">Coming Soon ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-top project-top-three">
+                        <span>PROJECT 03</span>
+                        <span class="project-symbol">◎</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather App</h3>
+                        <p>
+                            A weather dashboard that can display current
+                            weather using a weather API.
+                        </p>
+                        <div class="tags">
+                            <span>JavaScript</span><span>API</span><span>CSS</span>
+                        </div>
+                        <a href="#contact" class="project-link">Coming Soon ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="contact-card reveal">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have an idea? Let's <span>talk.</span></h2>
+                <p>
+                    I'm always interested in learning, collaborating,
+                    and connecting with people who build interesting things.
+                </p>
+
+                 <a class="btn primary-btn"
+                   href="mailto:anishkumar898693@gmail.com">
+                    Send Me an Email ↗
+                </a>
+
+                <p class="contact-note">
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Anish Kumar. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
